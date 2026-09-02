@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+
+
+}
+body{
+background-color: rgb(154, 77, 77);
+text-align: center;
+}
+
+div{
+background-color: beige;
+width: 400px;
+margin: 0 auto;
+margin-top: 200px;
+border-radius: 50px;
+box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.685);
+border: 10px double rgba(0, 0, 0, 0.963);
+}
+img{
+    display:block;
+    margin: 0 auto;
+    border-radius: 60%;
+    padding-top: 20px;
+    border-radius: 0;
+}
+h1{
+    color: rgba(174, 3, 48, 0.881);
+}
+h3{
+    color: rgba(174, 3, 49, 0.6);
+}
+p{
+    color:rgba(174, 3, 49, 0.552);
+}
+
