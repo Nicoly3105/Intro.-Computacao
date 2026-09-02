@@ -3,17 +3,83 @@
     padding: 0;
     font-family:serif;
 }
-
-
-.topo_da_pagina{
-   
-    text-align: center;
-    .fundo{
-    background-image: 900px;
-    width: 500px;
-    height: 250px;
-        
-    
-    }
+body{
+    background-color: #fff3d6;
 }
 
+.topo_da_pagina{
+    background-color: #f28c28;
+    text-align: center;
+    padding: 10px;
+    color: #2b1600;
+}
+.topo_da_pagina img{
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+}   
+.topo_da_pagina h1{
+    font-size: 40px;
+    margin: 0;
+}
+.topo_da_pagina p{
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+nav{
+    background-color: #2b1600;
+    text-align: center;
+    padding: 18px;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    margin: 30px;
+    font-family:sans-serif;
+    font-weight: bold; 
+}
+section{
+    background-color: #ffcf33;
+    padding: 30px; 
+    text-align: center;
+}
+.prato_do_dia{
+    background-color: #fff8e7;
+    width: 70%; margin: 20px auto;
+    padding: 25px;
+    border: 4px solid #f28c28;
+    border-radius: 15px;
+}
+.hamb{
+    width: 300px;
+}
+.selo{
+    width: 100px;
+}
+.prato_do_dia h2 { 
+    color: #d94b1f; 
+}
+.prato_do_dia h3 { 
+    font-size: 28px;
+    color: #d94b1f; 
+}
+.horario_funcionamento{
+    background-color: #ffe8a3;
+    width: 60%; margin: 20px auto;
+    padding: 25px;
+    border: 3px solid #2b1600;
+    border-radius: 15px;
+}
+.horario_funcionamento h2{
+    color: #2b1600;
+}
+footer{
+    background-color: #d94b1f;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+footer p{
+    color: black;
+}
