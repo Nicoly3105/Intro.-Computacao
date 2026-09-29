@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: azure;
+}
+.paises{
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 50px;
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(1, 40, 72);
+    padding: 10px;
+    
+}
+.continente{
+    width: 75px;
+}
+.faixada{
+    display:flex;
+    align-items: center;
+    
+}
+.intro{
+    font-size: 18px;
+    text-align:start;
+    padding: 50px;
+    
+}
+.tabela{
+    align-items: center;
+    border-collapse:collapse;
+    font-size: 21px;
+    margin: 0 auto;
+}
+th, td{
+    padding: 50px;
+}
+thead tr{
+    border-bottom: solid 3px rgb(1, 40, 72);
+    
+}
+tbody tr:hover{
+    background-color: rgb(149, 200, 250);
+}
+tfoot{
+    background-color: rgb(95, 92, 92);
+    color: aliceblue;
+    font-weight: bold;
+}
+caption{
+    color: rgb(1, 40, 72);
+    font-size: 25px;
+    font-family:'Times New Roman', Times, serif;
+}
+a{
+    text-decoration:none;
+    color: rgb(92, 101, 179);
+}
+

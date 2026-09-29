@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: rgb(176, 144, 105);
+    margin: 0 auto;
+}
+body{
+    background-color: beige; 
+    margin: auto;
+}
+.imagens, .videos{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 100px;
+    padding: 20px;
+    margin: auto;
+    align-items: center;
+}
+.audios{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50%;
+    padding: 20px;
+    margin: auto;
+    align-items: center;
+}
+
+figcaption{
+    color: rgb(59, 34, 3);
+    font-size: 15px;
+    font-family:'Courier New', Courier, monospace;
+}
+h1{
+    color: rgb(34, 23, 1);
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 50px;
+}
+.img1{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 12px;
+    
+
+}
+.img2{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+.img3{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+.vid1{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+.vid2{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+.vid3{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 12px;
+}
