@@ -1,0 +1,22 @@
+*{
+    padding:  0;
+}
+:root{
+    --roxo: #272627;
+    --cinza: #9ba0a0f4;
+    --preto: #000;
+    --branco: #fff;
+
+}
+body{
+    background-color: var(--roxo);
+}
+.dados{
+    background-color: var(--branco);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+h1{
+    text-align: center;
+}
